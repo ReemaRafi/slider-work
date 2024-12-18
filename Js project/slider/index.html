@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+<h1>Image Slider</h1>
+
+ <div class="slider">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slides-container">
+          <div class="slide" style="background-image: url('https://i.pinimg.com/originals/43/1d/ca/431dca9ef50a9acb5569f0cf263fed1c.gif')"></div>
+          <div class="slide" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYHOc9a5RPI16stYFtJR87vw5yX2A3lL6JLw&s')"></div>
+          <div class="slide" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrML9sB55SGx3FEmjzyEY1RsKLXmZR0ky9Og&s')"></div>
+          <div class="slide" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VVa_nIHFUNltMu6OBBfQLAQPMHET0FyN3A&s')"></div>
+        </div>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+    </div>
+
+    <script src="./asset/app.js"></script>
+</body>
+</html>
